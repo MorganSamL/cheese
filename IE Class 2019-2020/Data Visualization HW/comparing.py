@@ -4,7 +4,6 @@ import pandas as pd
 pd.plotting.register_matplotlib_converters()
 
 df1 = pd.read_csv("EZJ_L.csv")
-print(df1.head())
 df1['Date'] = pd.to_datetime(df1.Date)
 # print(df1.head())
 
